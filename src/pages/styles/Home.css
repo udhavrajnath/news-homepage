@@ -35,8 +35,18 @@ grid-template-columns: 10% 90%;
   
 .tags{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+}
+a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    margin-left: 15px;
+    font-size: 17px;
+}
+a:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
 }
 .mainNews{
 background-color: transparent;
@@ -68,6 +78,9 @@ grid-column-gap: 2%;
     display: grid;
     grid-template-rows: 75% 25%;
     text-align: left;
+}
+.rightLowerText p{
+color: hsl(236, 13%, 42%);
 }
 #ReadBtn{
     width: 55%;
@@ -114,6 +127,10 @@ grid-column-gap: 2%;
     font-size: 20px;
     font-weight: 700;
     margin-top: 7px;
+}
+.rightCntn h3:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
 }
 .rightCntn p{
     color:hsl(233, 8%, 79%) ;
@@ -169,6 +186,10 @@ grid-column-gap: 0.5%;
     font-size: 20px;
     font-weight: 700;
 
+}
+.TopicDesc h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
 }
 .TopicDesc p{
     color:hsl(236, 13%, 42%) ;

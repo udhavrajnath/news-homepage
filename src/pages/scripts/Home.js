@@ -9,6 +9,11 @@ function Home() {
             <div className='topbar'>
               <div className='logo'><img id='logo' src={Logo} alt='page logo'/></div>
               <div className='tags'>
+                <a href='#'>Home</a>
+                <a href='#'>New</a>
+                <a href='#'>Popular</a>
+                <a href='#'>Trending</a>
+                <a href='#'>Categories</a>
               </div>
             </div>
             <div className='mainNews'>
