@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:ital,wght@0,400;1,500&display=swap');
+
 .container-fluid{
     width: 100%;
     height: 100%;
@@ -8,67 +11,179 @@
    
 }
 .Homepage{
-    background-color: red;
+    background-color: transparent;
     width: 75%;
     height: 90%;
     display: grid;
-    grid-template-rows: 12% 68% 20% ;
-  
+    grid-template-rows: 11% 65% 20% ;
+    grid-row-gap: 1.5%;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Overpass', sans-serif;
 
+}
+.rightTitleDiv{
+    display: flex;
+    align-items: center;
+    text-align: left;
 }
 .topbar{
-background-color: blue;
+background-color: transparent;
+display: grid;
+grid-template-columns: 10% 90%;
 }
-
+  
+.tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mainNews{
-background-color: yellow;
+background-color: transparent;
 display: grid;
 grid-template-columns: 65% 33%;
 grid-column-gap: 2%;
 }
 .left{
-    background-color: antiquewhite;
+    background-color: transparent;
     display: grid;
     grid-template-rows: 65% 35%;
 }
 .imageMain{
-    background-color: lightcoral;
+    background-color: transparent;
+}
+#mainImg{
+    width: 100%;
+    height: 100%;
 }
 .lowerText{
-    background-color: lightgreen;
+    background-color: transparent;
     display: grid;
-    grid-template-columns:50% 50%;
+    grid-template-columns:50.5% 48.5%;
+    grid-column-gap: 1%;
+    margin-top: 10px;
 }
 .rightLowerText{
-    background-color: aqua;
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: 75% 25%;
+    text-align: left;
+}
+#ReadBtn{
+    width: 55%;
+    height: 100%;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color:hsl(36, 100%, 99%) ;
+}
+#ReadBtn:hover{
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+
 }
 .leftLowerText{
-    background-color: black;
+    background-color: transparent;
     display: grid;
     grid-template-rows: 85% 15%;
+    text-align: left;
+    
+    padding-right: 25px;
+}
+.leftLowerText h1{
+    font-size: 43px;
+    font-weight: 900;
+    color: hsl(240, 100%, 5%);
 }
 .right{
-    background-color: aqua;
+    background-color: hsl(240, 100%, 5%);
+    display: grid;
+    grid-template-rows: 18% 27.3% 27.3% 27.3%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.rightCntn{
+    background-color: transparent;
+    border-bottom: 1px hsl(233, 8%, 79%) solid;    
+    text-align: left;
+    border-bottom-width: thin;
+}
+.rightCntn h3{
+    color: hsl(36, 100%, 99%);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+.rightCntn p{
+    color:hsl(233, 8%, 79%) ;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+
 }
 .topics{
-background-color: green;
+background-color: transparent;
 display: grid;
 grid-template-columns: 33% 33% 33%;
 grid-column-gap: 0.5%;
 }
 .topicContent{
-    background-color: brown;
+    background-color: transparent;
     display: grid;
     grid-template-columns: 35% 65%;
+    height: 80%;
 }
 .TopicCntn{
-    background-color: darkcyan;
+    background-color: transparent;
     display: grid;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 25% 75%;
+    height: 80%;
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 .topicImg{
-    background-color: darkgoldenrod;
+    background-color: transparent;
+    height: 80%;
+}
+#smallImg{
+    width: 100%;
+    height: 100%;
+    
 }
 .TopicTitle{
-    background-color: darkkhaki;
+    background-color: transparent;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+.TopicDesc{
+    padding-top: 10px;
+}
+.TopicDesc h3{
+    color:hsl(240, 100%, 5%) ;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.TopicDesc p{
+    color:hsl(236, 13%, 42%) ;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.logo{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.rightTitleDiv h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 43px;
+    font-weight: 700;
 }
